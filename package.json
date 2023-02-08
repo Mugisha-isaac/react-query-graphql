@@ -5,5 +5,8 @@
     "@graphql-codegen/typescript-operations": "^3.0.0",
     "@graphql-codegen/typescript-react-query": "^4.1.0",
     "graphql": "^16.6.0"
+  },
+  "scripts": {
+    "generate": "graphql-codegen --config codegen.yml"
   }
 }
